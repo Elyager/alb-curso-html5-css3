@@ -1,0 +1,71 @@
+/*esto es para que el tamaño del borde y el padding no afecten el tamaño del
+elemento contenedor, esto lo pueden ver ejemplificado aquí:
+http://codepen.io/Elyager/pen/VYxGQE*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  /*background-color: brown;*/
+  border: 3px solid pink;
+}
+
+body {
+  /*background-color: brown;*/
+  border: 3px solid brown;
+}
+
+div {
+  border: 6px solid rgb(77, 100, 159);
+}
+
+section {
+  background-color: gray;
+}
+
+header {
+  background-color: magenta;
+}
+
+footer {
+  background-color: orange;
+}
+
+h1 {
+  border: 3px solid red;
+}
+
+h2 {
+  border: 3px solid green;
+}
+
+h3 {
+  border: 3px solid blue;
+}
+
+a {
+  border: 3px solid cyan;
+}
+
+p {
+  border: 3px solid black;
+}
+
+img {
+  border: 3px solid pink;
+}
+
+ul, ol {
+  border: 3px dashed black;
+}
+
+li {
+  border: 3px dotted green
+}
+
+span {
+  background-color: #fffb9e ;
+  color: #00534c;
+}
